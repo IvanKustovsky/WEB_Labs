@@ -1,0 +1,210 @@
+body {
+    background-color: rgb(136, 136, 135);
+}
+
+header {
+    background-color: rgb(239, 215, 183);
+    text-align: center;
+    margin: 0px;
+    color: rgb(71, 31, 104);
+
+}
+
+nav {
+    position: relative;
+    left: 34%;
+    background-color: rgb(160, 227, 105);
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+    line-height: 30px;
+}
+
+div {
+    background-color: azure;
+    border: 5px solid #000;
+    float: left;
+    margin: 2px;
+}
+
+.box1 {
+    width: 950px;
+    height: 400px;
+    border: 5px solid #000;
+}
+
+#p1 {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin: 4px;
+}
+
+#p2 {
+    float: right;
+    width: 200px;
+    height: auto;
+    margin: 4px;
+}
+
+#p3 {
+    float: none;
+    height: 150px;
+    width: 200px;
+    margin: 0px auto auto 4px;
+}
+
+#p4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: 100;
+}
+
+.box2 {
+    width: 525px;
+    height: 400px;
+    border: 5px solid #000;
+    position: relative;
+
+}
+
+.block1,
+.block2,
+.block3 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border: 0;
+}
+
+.block1 {
+    background-color: rgb(173, 191, 72);
+    left: 10px;
+    top: 10px;
+}
+
+.block2 {
+    background-color: rgb(236, 114, 161);
+    left: 150px;
+    top: 125px;
+
+}
+
+.block3 {
+    background-color: rgb(69, 72, 165);
+    bottom: 10px;
+    right: 60px;
+}
+
+.block4,
+.block5 {
+    width: 400px;
+    height: 475px;
+    margin: 0;
+    left: 28%;
+    top: 5px;
+    position: relative;
+    border-top-color: antiquewhite;
+    border-bottom-color: blueviolet;
+
+}
+
+.block4 {
+    border-left-color: rgb(83, 82, 82);
+    border-right-color: azure;
+
+}
+
+.block5 {
+    width: 260px;
+    border-left-color: azure;
+    border-right-color: rgb(83, 82, 82);
+}
+
+.block6 {
+    background-color: rgb(76, 199, 76);
+    position: relative;
+    left: -80px;
+    width: 300px;
+    height: 170px;
+    top: 500px;
+    padding: 5px;
+}
+
+.block6 input[type=text],
+.block6 input[type=password] {
+    width: 50%;
+    padding: 6px 10px;
+    margin: 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    position: relative;
+    top: -15px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: #d9bacf;
+    border: 1px solid black;
+    color: white;
+    padding: 7px 10px;
+    margin: 2px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.block7 {
+    background-color: rgb(204, 238, 53);
+    position: relative;
+    left: -250px;
+    width: 650px;
+    height: 225px;
+    top: 505px;
+}
+
+.block7 h3 {
+    top: -15px;
+    left: 0;
+    position: absolute;
+}
+
+fieldset {
+    position: relative;
+    top: 40px;
+    width: 225px;
+    height: 150px;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.block7 input {
+    width: 80%;
+    padding: 6px 10px;
+    margin: 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    border: 1px solid black;
+}
+
+textarea {
+    position: relative;
+    top: -135px;
+    left: 275px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
