@@ -123,7 +123,6 @@ div {
     border-left-color: azure;
     border-right-color: rgb(83, 82, 82);
     left: 55%;
-
 }
 
 .block6 {
@@ -166,7 +165,7 @@ button {
     left: 29.5%;
     width: 43%;
     height: 225px;
-    margin-top: 1.5%;
+    margin-top: 2%;
     top: 170%;
 }
 
@@ -222,7 +221,7 @@ textarea {
     width: 10%;
     height: 60px;
     border: 2px solid rgb(118, 54, 54);
-    border-radius: 15%;
-    top: 205%;
+    border-radius: 20%;
+    top: 206%;
     left: 29.5%;
 }
