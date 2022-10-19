@@ -31,7 +31,7 @@ div {
     height: 400px;
     margin-right: 2%;
     border: 5px solid #000;
-    position: absolute;
+    display: inline-block;
 }
 
 #p1 {
@@ -63,12 +63,12 @@ div {
 }
 
 .box2 {
-    left: 60%;
+
     width: 35%;
     height: 400px;
-    margin-left: 2%;
     border: 5px solid #000;
-    position: absolute;
+    position: relative;
+    display: inline-block;
 
 }
 
@@ -91,6 +91,7 @@ div {
     background-color: rgb(236, 114, 161);
     left: 150px;
     top: 125px;
+    z-index: 2;
 
 }
 
@@ -98,15 +99,42 @@ div {
     background-color: rgb(69, 72, 165);
     bottom: 10px;
     right: 60px;
+    z-index: 1;
 }
+
+.Block4,
+.Block6,
+.Block7,
+.Links {
+    border: 0px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(189, 189, 180);
+    margin-top: 10px;
+}
+
+.Block6 {
+    height: 200px;
+}
+
+.Block7 {
+    height: 235px;
+}
+
+.Links {
+    height: 70px;
+}
+
+
 
 .block4,
 .block5 {
+    margin-top: 1%;
+    left: 25%;
     width: 30%;
     height: 475px;
-    top: 80%;
-    left: 27%;
-    position: absolute;
+    position: relative;
+    display: inline-block;
     border-top-color: antiquewhite;
     border-bottom-color: blueviolet;
 
@@ -122,17 +150,15 @@ div {
     width: 20%;
     border-left-color: azure;
     border-right-color: rgb(83, 82, 82);
-    left: 55%;
 }
 
 .block6 {
     background-color: rgb(76, 199, 76);
-    position: absolute;
-    left: 41%;
-    width: 300px;
+    position: relative;
+    display: inline-block;
+    left: 40%;
+    width: 20%;
     height: 170px;
-    margin-top: 1%;
-    top: 144%;
     padding: 5px;
 }
 
@@ -161,12 +187,11 @@ button {
 
 .block7 {
     background-color: rgb(204, 238, 53);
-    position: absolute;
-    left: 29.5%;
-    width: 43%;
+    position: relative;
+    display: inline-block;
+    left: 29%;
+    width: 42%;
     height: 225px;
-    margin-top: 2%;
-    top: 170%;
 }
 
 .block7 h3 {
@@ -216,12 +241,11 @@ textarea {
 
 .links {
     text-align: center;
-    font-size: 16px;
-    position: absolute;
+    position: relative;
+    display: inline-block;
     width: 10%;
-    height: 60px;
+    height: 55px;
     border: 2px solid rgb(118, 54, 54);
     border-radius: 20%;
-    top: 206%;
-    left: 29.5%;
+    left: 29%;
 }
