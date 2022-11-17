@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=
+    device-width, initial-scale=1.0">
+    <title>Лабораторна робота №2</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+<header>
+    <h1>HTML форми та позиціонування</h1>
+    <nav>
+        | <a href="#Registration">Форма реєстрації</a> |
+        <a href="#Login">Форма входу</a> |
+        <a href="#Feedback"> Форма зворотнього зв'язку</a> |
+    </nav>
+    <h2>Лабораторна робота №2. Виконавець: Кустовський Іван Степанович, ТР-13</h2>
+</header>
+
+<div class="box1">
+    <article>
+        <img src="style/images/Спорт.jpg" id="p1">
+        <p> <strong>Спорт</strong> - організована за певними правилами діяльність людей, що полягає в зіставленні їхніх
+            фізичних та
+            інтелектуальних здібностей. Спорт — це змагання за певними правилами, зазвичай це специфічний вид фізичної
+            або
+            інтелектуальної активності, яку здійснюють з метою змагання, а також поліпшення здоров'я, отримання
+            морального і
+            матеріального задоволення, прагнення до удосконалення і слави, покращення навичок.
+        </p>
+        <img src="style/images/sport2.png" id="p2">
+        <p>Спорт, на відміну від фізичної культури чи фізичної активності, передбачає участь в офіційних змаганнях, за
+            яку
+            спортсмен може отримати матеріальну винагороду, титули, звання, нагороди. Крім власне змагань, складовою
+            спорту
+            є підготовка до них — тренування. У цьому плані спорт є підвидом ширшого поняття фізичної культури. Часто
+            спорт
+            служить розвагою для глядачів.</p>
+        <img src="style/images/sport3.jpg" id="p3">
+
+    </article>
+
+</div>
+
+<div class="box2">
+    <div class="block1">
+        <a href="https://uk.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D0%B5%D0%B9%D0%B1%D0%BE%D0%BB" target="_blank">
+            <img src="style/images/volleyball.jpg" width="100%" height="100%" alt="Volleyball" title="Volleyball">
+        </a>
+
+    </div>
+    <div class="block2">
+        <a href="https://uk.wikipedia.org/wiki/%D0%91%D0%B0%D1%81%D0%BA%D0%B5%D1%82%D0%B1%D0%BE%D0%BB"
+            target="_blank"><img src="style/images/bask.jpg" width="100%" height="100%" alt="Basketball"
+                title="Basketball"></a>
+
+    </div>
+    <div class="block3">
+        <a href="https://uk.wikipedia.org/wiki/%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB" target="_blank">
+            <img src="style/images/football.jpg" width="100%" height="100%" alt="Football" title="Football">
+        </a>
+    </div>
+</div>
+<br>
+<div class="Block4">
+    <div class="block4">
+        <form action="/action_page.php" method="get" novalidate target="_blank" autocomplete="on" name="form1"
+            id="form1" accept-charset="UTF-8" align="center">
+            <h3 style="top: -15px;left:-145px; position: relative;"><a id="Registration">Форма реєстрації</a></h3>
+            <img src="style/images/circle.png" alt="Circle" width="15%" height="15%">
+            <p style="top:15px; left:-70px; position:relative"><label for="Name"><b>Ім'я</b></label><br><input
+                    type="text" placeholder="Ім'я" name="Name" id="Name" style="left:70px; position: relative;"></p>
+
+            <p style="top:15px; right: 50px; position:relative"><label for="LastName"><b>Прізвище</b></label><br><input
+                    type="text" placeholder="Прізвище" name="LastName" id="LastName"
+                    style="left:50px; position: relative;">
+            </p>
+
+            <p style="top:10px; right: 63px; position:relative"><b>Стать</b></p>
+            <p><label><input type="radio" name="Sex" value="Male"><b>Чоловіча</b></label> <label><input type="radio"
+                        name="Sex" value="Female"><b>Жіноча</b></label></p>
+
+            <p style="top:5px; left:-25px; position:relative"><label for="age"><b>Вік</b></label>
+                <select name="age" id="age">
+                    <option>Менше 18</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option selected>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25+</option>
+                </select>
+            </p>
+            <p style="position: relative; top: 5px; left: 30px"><label for="date"><b>Дата народження</b></label>
+                <input type="date" id="date" name="date" />
+            </p>
+            <p><input type="button" value="Зареєструватись" name="button1"
+                    style="border-radius: 0px; left: 95px; top: 5px; position: relative;" /> </p>
+    </div>
+
+    <div class="block5">
+        <p style="top:55px; left:0px; position:relative"><label for="Country"><b>Країна проживання</b></label>
+            <br>
+            <select name="Country" id="Country">
+                <option selected>Ukraine</option>
+                <option>United Kingdom</option>
+                <option>The USA</option>
+                <option>France</option>
+                <option>russia</option>
+                <option>Italy</option>
+                <option>Belgium</option>
+                <option>Australia</option>
+                <option>Another</option>
+            </select>
+        </p>
+        <p style="top:55px; left:0px; position:relative"><label for="Tel"><b>Номер телефону</b></label><br><input
+                type="tel" placeholder="+380(xx)xxx-xx-xx" id="tel"></p>
+        <p style="top:55px; left:0px; position:relative"><label for="Url"><b>Соцмережа</b></label><br><input type="url"
+                placeholder="Посилання на мережу" id="Url"></p>
+        <p style="top:55px; left:0px; position:relative"><label for="Email"><b>Електронна пошта</b></label><br><input
+                type="email" placeholder="Ел. пошта" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="Email">
+        </p>
+        <p style="top:55px; left:0px; position:relative"><label for="Password"><b>Пароль</b></label><br><input
+                type="password" maxlength="20" size="15" placeholder="Пароль">
+        </p>
+        <p style="top:55px; left:0px; position:relative"><label for="Variant"><br><input type="checkbox"
+                    name="Variant">Чи згідні ви з умовами?</label></p>
+        <p style="position: relative; left:20px; top: 55px"><label><input type="button" value="Відміна" name="button2"
+                    style="border-radius: 0px;" /></label> </p>
+        </form>
+    </div>
+</div>
+
+<div class="Block6">
+    <div class="block6">
+        <form action="/action_page.php" method="get" novalidate target="_blank" autocomplete="on" name="form2"
+            id="form2" accept-charset="UTF-8" align="center">
+            <h3 style="top: -15px;left:0px; position: relative; text-align: center;"><a id="Login">Форма входу:</a></h3>
+            <label for="uname"></label>
+            <input type="text" placeholder="Логін" name="uname" required> <br>
+            <label for="psw"></label>
+            <input type="password" placeholder="Пароль" name="psw" required>
+            <br>
+            <button type="submit">Вхід</button>
+        </form>
+    </div>
+</div>
+
+<div class="Block7">
+    <div class="block7">
+        <form action="/action_page.php" method="get" novalidate target="_blank" autocomplete="on" name="form3"
+            id="form3" accept-charset="UTF-8">
+            <h3><a id="Feedback">Форма зворотнього зв'язку</a></h3>
+            <fieldset>
+                <legend>Заповніть необхідні дані</legend>
+                <label for="Name"></label><input type="text" placeholder="Ім'я" name="Name" id="Name">
+                <label for="Email"></label><br><input type="email" placeholder="Ел. пошта"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="Email">
+                <label for="Theme"></label>
+                <input list="themes" placeholder="Тема повідомлення" id="Theme" name="Theme" />
+                <datalist id="themes">
+                    <option value="Тема1"></option>
+                    <option value="Тема2"></option>
+                    <option value="Тема3"></option>
+                    <option value="Інше"></option>
+                </datalist>
+                <button style="width:60%; left: 45px; position: relative;" type="submit">Відправити</button>
+            </fieldset>
+            <p><textarea name="text" cols="40" rows="6" id="text">Повідомлення</textarea></p>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <div class="Links">
+        <div class="links">
+            <p>Посилання на соц. мережі</p>
+        </div>
+        <a href="https://www.instagram.com/kustovskii/" target="_blank">
+            <img src="style/images/Instagram.png" width="3.5%" height="5.5%"
+                style="position:absolute; left:41%; margin-top: 0.5%;">
+        </a>
+        <a href="https://t.me/micromolekula11_00" target="_blank">
+            <img src="style/images/Telegram.png" width="3.5%" height="5.5%"
+                style="position:absolute; left:45%; margin-top: 0.5%;">
+        </a>
+        <a href="https://twitter.com/VanyaKust?t=nxC0yHit8F3bh1POvY3ZXg&s=09" target="_blank">
+            <img src="style/images/Twitter.png" width="3.5%" height="5.5%"
+                style="position:absolute; left:49%; margin-top: 0.5%;">
+        </a>
+        <a href="">
+            <img src="style/images/up.png" width="5%" height="7.5%"
+                style="position:absolute; left:66%; margin-top: 0.5%; border-radius: 50%;">
+        </a>
+    </div>
+</footer>
+
+<body>
+</body>
+
+</html>

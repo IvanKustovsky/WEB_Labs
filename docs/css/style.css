@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.header>div {
+    margin: 5px;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.header a {
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.wrapper {
+    background-color: aquamarine;
+    background-image: url("../css/images/photo1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 25% 25%;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.wrapper>div {
+    text-align: left;
+    color: whitesmoke;
+}
+
+.about h1,
+.about h2,
+.about h4 {
+    padding: 15px 0 15px 0;
+}
+
+hr {
+    border: 2px solid white;
+    width: 50px;
+    background-color: white;
+}
+
+.about button {
+    color: whitesmoke;
+    padding: 7px 15px 7px 15px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.formdiv {
+    background-color: white;
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form button {
+    margin-top: auto;
+    align-items: baseline;
+    background-color: orange;
+    border-radius: 0;
+    width: 100%;
+    border: 0;
+    color: white;
+    padding: 15px
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    top: 5px;
+    width: 50%;
+    padding: 20px 20px 0px 10px;
+    margin: 2px;
+    border: 0;
+    position: relative;
+    border-bottom: 1px solid grey;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: space-around;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-wrapper>div {
+    align-self: center;
+}
+
+.flex-wrapper img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.tabsec {
+    display: grid;
+    grid-template-columns: 5% 35% 25%;
+    justify-content: space-around;
+    background-color: rgb(172, 166, 166);
+}
+
+.tabsec>div {
+    align-self: center;
+}
+
+.tablist {
+    width: 70px;
+}
+
+.tab-links>li {
+    background-color: orange;
+    border-bottom: 2px solid rgb(45, 43, 43);
+    text-align: center;
+    vertical-align: middle;
+    padding: 30px 0 0 0;
+    width: 70px;
+    height: 50px;
+}
+
+.tab-links a {
+    color: white;
+}
+
+.tab-text h2,
+.tab-text p,
+.tab-text button {
+    padding: 30px auto;
+    margin: 20px;
+}
+
+button {
+    color: whitesmoke;
+    padding: 7px 15px 7px 15px;
+    background-color: orange;
+    border-radius: 7%;
+    border: 2px solid orange;
+}
+
+.download {
+    background-color: aquamarine;
+    background-image: url("../css/images/city.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 350px;
+    align-content: center;
+    display: grid;
+    justify-content: space-around;
+}
+
+.download h1,
+.download hr,
+.download h4 {
+    color: rgb(124, 241, 113);
+    margin: 10px 0 10px 0;
+}
+
+.download button {
+    color: rgb(124, 241, 113);
+    padding: 7px 15px 7px 15px;
+    background-color: transparent;
+    border: 2px solid rgb(124, 241, 113);
+    align-content: center;
+}
+
+.reviews hr,
+.Contact hr {
+    color: orange;
+    background-color: orange;
+    border-color: orange;
+}
+
+.quoteset {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 15% 15% 15%;
+}
+
+.reviews h1,
+.reviews hr,
+.reviews p {
+    margin: 10px;
+}
+
+.reviews img {
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.Contact h1,
+.Contact hr,
+.Contact p {
+    color: black;
+    margin: 10px;
+}
+
+.ConForm {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.ConForm>div {
+    align-self: center;
+    gap: 30px;
+}
+
+.val1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.val2 {
+    grid-column: 1/2;
+    grid-row: 2/3
+}
+
+.val3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.val4 {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.textarea1 {
+    margin: auto 0 auto 250px;
+    grid-column: 2/3;
+    grid-row: 1/4;
+    padding: 5px;
+}
